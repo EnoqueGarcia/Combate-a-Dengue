@@ -36,6 +36,10 @@ function mostrarPergunta() {
 function verificarResposta(respostaSelecionada) {
   const correta = perguntas[indiceAtual].respostaCorreta
 
+  // Desabilita todos os botões após a resposta
+  const botoes = opcoesEl.querySelectorAll('button')
+  botoes.forEach(botao => botao.disabled = true)
+
   if (respostaSelecionada === correta) {
     feedbackEl.textContent = '✅ Resposta correta!'
     feedbackEl.className = 'text-success fw-bold text-center'
@@ -47,6 +51,7 @@ function verificarResposta(respostaSelecionada) {
 
   btnProxima.classList.remove('d-none')
 }
+
 
 btnProxima.onclick = () => {
   indiceAtual++
