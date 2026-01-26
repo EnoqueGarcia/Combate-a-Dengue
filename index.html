@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Combate à Dengue | Projeto Educacional</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- CSS do projeto -->
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero d-flex align-items-center text-center">
+  <div class="container">
+    <h1 class="mb-3">Combate à Dengue</h1>
+    <p class="lead mb-4" style="font-weight: 500; color: rgb(48, 43, 43);">
+      Um projeto educacional interativo para conscientizar estudantes sobre a prevenção,
+      sintomas e combate à dengue nas escolas.
+    </p>
+  
+  </div>
+</section>
+
+
+
+<!-- O QUE VOCÊ VAI APRENDER -->
+<section class="">
+  <div class="container">
+    <h2 class="text-center mb-4">O que você vai aprender?</h2>
+
+    <div class="row g-4">
+
+      <!-- TRANSMISSÃO -->
+      <div class="col-md-6">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h5>🦟 Transmissão</h5>
+            <p>Como a dengue é transmitida e o papel do mosquito Aedes aegypti.</p>
+
+            <button class="btn btn-outline-success btn-sm"
+              onclick="toggleConteudo('transmissao')">
+              Ver mais
+            </button>
+
+            <div class="conteudo-expandido" id="transmissao">
+              <hr>
+              <img src="./src/img/mosquisto.png" class="img-fluid rounded mb-3" alt="Mosquito da dengue" style="height: 250px; width: 300px;" >
+
+          <p>
+  A dengue é uma doença viral transmitida pela picada da fêmea do mosquito
+  <strong>Aedes aegypti</strong>, vetor urbano altamente adaptado ao ambiente humano.
+  Após se infectar ao picar uma pessoa doente, o mosquito pode transmitir o vírus
+  a outras pessoas durante toda a sua vida.
+</p>
+
+<p>
+  O <strong>Aedes aegypti</strong> apresenta hábitos predominantemente diurnos,
+  com maior atividade nas primeiras horas da manhã e no final da tarde.
+  Sua proliferação está diretamente relacionada a condições ambientais favoráveis,
+  especialmente a presença de água parada limpa.
+</p>
+
+<h6 class="mt-3">Principais criadouros do mosquito</h6>
+<ul>
+  <li>Caixas d’água, cisternas e reservatórios destampados</li>
+  <li>Pneus descartados, garrafas, latas e recipientes plásticos</li>
+  <li>Pratos de plantas, calhas obstruídas e ralos externos</li>
+  <li>Bandejas de geladeiras e aparelhos de ar-condicionado</li>
+</ul>
+
+<p>
+  O ciclo de vida do mosquito é rápido: em condições ideais, os ovos podem se
+  transformar em mosquitos adultos em aproximadamente <strong>7 a 10 dias</strong>,
+  o que favorece surtos em períodos de calor e chuvas frequentes.
+</p>
+
+<p>
+  É importante destacar que <strong>a dengue não é transmitida de pessoa para pessoa</strong>.
+  A transmissão ocorre exclusivamente pela picada do mosquito infectado, reforçando
+  a importância das ações de controle ambiental e eliminação de focos.
+</p>
+
+<p class="fst-italic text-muted">
+  A redução da proliferação do vetor é considerada a principal estratégia de
+  prevenção da dengue, sendo uma responsabilidade coletiva que envolve a comunidade,
+  o poder público e as instituições educacionais.
+</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SINTOMAS -->
+      <div class="col-md-6">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h5>🚨 Sintomas</h5>
+            <p>Principais sintomas da dengue e sinais de alerta.</p>
+
+            <button class="btn btn-outline-success btn-sm"
+              onclick="toggleConteudo('sintomas')">
+              Ver mais
+            </button>
+
+            <div class="conteudo-expandido" id="sintomas">
+              <hr>
+              <img src="./src/img/sintomas.png" class="img-fluid rounded mb-3" alt="Sintomas da dengue"  style="height: 400px; width: 300px;">
+
+             <p>
+  Os sintomas da dengue geralmente surgem entre <strong>4 e 10 dias</strong>
+  após a picada do mosquito infectado. A doença pode se manifestar de forma
+  assintomática, leve ou grave, variando conforme a resposta imunológica do
+  organismo e o tipo do vírus envolvido.
+</p>
+
+<p>
+  A fase inicial da doença, conhecida como <strong>fase febril</strong>,
+  caracteriza-se por início súbito de febre alta, geralmente acima de 38,5 °C,
+  acompanhada de sintomas sistêmicos intensos.
+</p>
+
+<h6 class="mt-3">Sintomas mais comuns</h6>
+<ul>
+  <li>Febre alta de início abrupto</li>
+  <li>Dor de cabeça intensa</li>
+  <li>Dor atrás dos olhos (dor retro-orbitária)</li>
+  <li>Dores musculares e articulares</li>
+  <li>Mal-estar generalizado e fadiga</li>
+  <li>Náuseas e vômitos</li>
+</ul>
+
+<p>
+  Em alguns casos, pode ocorrer o surgimento de <strong>manchas avermelhadas na pele</strong>,
+  conhecidas como exantema, geralmente acompanhadas de coceira.
+</p>
+
+<h6 class="mt-3">Sinais de alerta para formas graves</h6>
+<ul>
+  <li>Dor abdominal intensa e contínua</li>
+  <li>Vômitos persistentes</li>
+  <li>Sangramentos (nariz, gengiva ou fezes)</li>
+  <li>Tontura ou sensação de desmaio</li>
+  <li>Sonolência excessiva ou irritabilidade</li>
+</ul>
+
+<p>
+  A presença de sinais de alerta indica risco de evolução para formas graves da
+  dengue, como a <strong>dengue hemorrágica</strong>, exigindo atendimento médico
+  imediato.
+</p>
+
+<p class="fst-italic text-muted">
+  O reconhecimento precoce dos sintomas e a busca por assistência de saúde são
+  fundamentais para reduzir complicações e óbitos associados à dengue.
+</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TRATAMENTO -->
+      <div class="col-md-6">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h5>🧪 Tratamento</h5>
+            <p>O que fazer ao apresentar sintomas.</p>
+
+            <button class="btn btn-outline-success btn-sm"
+              onclick="toggleConteudo('tratamento')">
+              Ver mais
+            </button>
+
+            <div class="conteudo-expandido" id="tratamento">
+              <hr>
+              <img src="./src/img/tratamento.png" class="img-fluid rounded mb-3" alt="Tratamento da dengue" style="height: 400px; width: 300px;">
+
+             <p>
+  Atualmente, <strong>não existe um tratamento específico capaz de eliminar o
+  vírus da dengue</strong>. O manejo clínico da doença é baseado no alívio dos
+  sintomas, na prevenção de complicações e no acompanhamento cuidadoso da
+  evolução do paciente.
+</p>
+
+<p>
+  A maioria dos casos de dengue pode ser tratada em casa, desde que não haja
+  sinais de gravidade. O tratamento domiciliar deve ser realizado com orientação
+  médica e acompanhamento dos sintomas.
+</p>
+
+<h6 class="mt-3">Medidas recomendadas no tratamento</h6>
+<ul>
+  <li>Repouso absoluto durante o período febril</li>
+  <li>Ingestão abundante de líquidos para evitar desidratação</li>
+  <li>Uso de medicamentos para controle da febre e da dor, somente com prescrição médica</li>
+</ul>
+
+<p>
+  A hidratação é considerada a <strong>principal medida terapêutica</strong>,
+  podendo ser realizada por via oral ou intravenosa, conforme a gravidade do
+  quadro clínico.
+</p>
+
+<h6 class="mt-3">Medicamentos que devem ser evitados</h6>
+<ul>
+  <li>Ácido acetilsalicílico (AAS)</li>
+  <li>Ibuprofeno</li>
+  <li>Diclofenaco e outros anti-inflamatórios</li>
+</ul>
+
+<p>
+  Esses medicamentos aumentam o risco de sangramentos e podem agravar as formas
+  graves da doença.
+</p>
+
+<h6 class="mt-3">Quando procurar atendimento médico</h6>
+<ul>
+  <li>Persistência da febre por mais de 48 horas</li>
+  <li>Presença de dor abdominal intensa</li>
+  <li>Vômitos frequentes</li>
+  <li>Sinais de sangramento</li>
+  <li>Dificuldade para ingerir líquidos</li>
+</ul>
+
+<p>
+  Em casos mais graves, pode ser necessária a hospitalização para monitoramento
+  contínuo, administração de fluidos intravenosos e suporte clínico adequado.
+</p>
+
+<p class="fst-italic text-muted">
+  O tratamento correto e o acompanhamento precoce reduzem significativamente o
+  risco de complicações e mortalidade associadas à dengue.
+</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <!-- PREVENÇÃO -->
+<div class="col-md-6">
+  <div class="card shadow-sm">
+    <div class="card-body">
+      <h5>🏡 Prevenção</h5>
+      <p>Como evitar água parada e eliminar focos do mosquito.</p>
+
+      <button class="btn btn-outline-success btn-sm"
+        onclick="toggleConteudo('conteudo-prevencao', this)">
+        Ver mais
+      </button>
+
+      <div class="conteudo-expandido" id="conteudo-prevencao">
+        <hr>
+        <img src="./src/img/prevencao.png"
+             class="img-fluid rounded mb-3"
+             alt="Prevenção da dengue"
+             style="height: 400px; width: 300px;">
+
+        <p>
+          A prevenção da dengue é a <strong>principal e mais eficaz estratégia</strong>
+          para o controle da doença, uma vez que não existe tratamento antiviral
+          específico.
+        </p>
+
+        <p>
+          O combate à dengue depende principalmente da eliminação dos focos de
+          reprodução do mosquito <strong>Aedes aegypti</strong>.
+        </p>
+
+        <h6 class="mt-3">Principais medidas de prevenção</h6>
+        <ul>
+          <li>Manter caixas d’água e reservatórios bem vedados</li>
+          <li>Eliminar pratos de plantas ou preenchê-los com areia</li>
+          <li>Descartar corretamente pneus e garrafas</li>
+          <li>Limpar calhas e ralos com frequência</li>
+          <li>Manter lixeiras sempre fechadas</li>
+        </ul>
+
+        <p class="fst-italic text-muted">
+          A prevenção contínua é a forma mais eficiente de reduzir os casos de dengue
+          e proteger a saúde da população.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- MODAL -->
+<div class="modal fade" id="modalConteudo" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalTitulo"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body" id="modalTexto"></div>
+
+    </div>
+  </div>
+</div>
+<p style="text-align: center; font-weight: bolder; margin-top: 30px;"  >Teste o que você aprendeu clicando no Quiz abaixo: 
+
+</p>
+  <a href="quiz.html" class="btn btn-success btn-lg" id="quiz">
+      Começar o Quiz
+    </a>
+
+<!-- RODAPÉ -->
+<footer class="footer text-center py-4">
+  <p class="mb-1">Projeto Extensionista – Engenharia de Software</p>
+  <small>Desenvolvido por Supremo Enoque • 2026</small>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- SCRIPT -->
+
+
+<script>
+    function toggleConteudo(id) {
+  const conteudo = document.getElementById(id)
+  const botao = conteudo.previousElementSibling
+
+  if (conteudo.style.display === "block") {
+    conteudo.style.display = "none"
+    botao.innerText = "Ver mais"
+  } else {
+    conteudo.style.display = "block"
+    botao.innerText = "Ver menos"
+  }
+}
+</script>
+
+</body>
+</html>

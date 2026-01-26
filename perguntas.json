@@ -1,0 +1,102 @@
+[
+  {
+    "pergunta": "Como a dengue é transmitida?",
+    "opcoes": [
+      "Pelo contato direto entre pessoas",
+      "Pela picada da fêmea do mosquito Aedes aegypti",
+      "Pela ingestão de água contaminada",
+      "Pelo ar"
+    ],
+    "respostaCorreta": 1
+  },
+  {
+    "pergunta": "Qual é o principal local de reprodução do mosquito Aedes aegypti?",
+    "opcoes": [
+      "Água limpa e parada",
+      "Água corrente",
+      "Solo seco",
+      "Ambientes escuros dentro de casas"
+    ],
+    "respostaCorreta": 0
+  },
+  {
+    "pergunta": "A dengue pode ser transmitida de pessoa para pessoa?",
+    "opcoes": [
+      "Sim, por contato físico",
+      "Sim, pelo ar",
+      "Não, apenas pela picada do mosquito",
+      "Somente por transfusão de sangue"
+    ],
+    "respostaCorreta": 2
+  },
+  {
+    "pergunta": "Qual dos sintomas abaixo é comum na dengue?",
+    "opcoes": [
+      "Febre alta",
+      "Coceira nos olhos",
+      "Dor de garganta leve",
+      "Tosse persistente"
+    ],
+    "respostaCorreta": 0
+  },
+  {
+    "pergunta": "Qual sintoma pode indicar um sinal de alerta para dengue grave?",
+    "opcoes": [
+      "Coriza",
+      "Dor abdominal intensa",
+      "Espirros frequentes",
+      "Sono excessivo"
+    ],
+    "respostaCorreta": 1
+  },
+  {
+    "pergunta": "Existe um medicamento específico para curar a dengue?",
+    "opcoes": [
+      "Sim, antibióticos",
+      "Sim, antivirais",
+      "Não, apenas tratamento dos sintomas",
+      "Sim, vacina para tratamento imediato"
+    ],
+    "respostaCorreta": 2
+  },
+  {
+    "pergunta": "Qual atitude é correta ao suspeitar de dengue?",
+    "opcoes": [
+      "Tomar qualquer medicamento por conta própria",
+      "Ignorar os sintomas",
+      "Procurar atendimento médico",
+      "Praticar exercícios físicos intensos"
+    ],
+    "respostaCorreta": 2
+  },
+  {
+    "pergunta": "Qual ação ajuda a prevenir a dengue?",
+    "opcoes": [
+      "Deixar pneus ao ar livre",
+      "Manter caixas d’água bem fechadas",
+      "Acumular garrafas no quintal",
+      "Evitar beber água"
+    ],
+    "respostaCorreta": 1
+  },
+  {
+    "pergunta": "Por que eliminar água parada é importante no combate à dengue?",
+    "opcoes": [
+      "Porque atrai outros insetos",
+      "Porque reduz o consumo de água",
+      "Porque impede a reprodução do mosquito",
+      "Porque melhora a estética do ambiente"
+    ],
+    "respostaCorreta": 2
+  },
+  {
+    "pergunta": "A prevenção da dengue é responsabilidade de quem?",
+    "opcoes": [
+      "Apenas do governo",
+      "Somente das escolas",
+      "Apenas dos profissionais de saúde",
+      "De toda a população"
+    ],
+    "respostaCorreta": 3
+  }
+]
