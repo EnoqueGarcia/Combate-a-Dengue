@@ -98,5 +98,15 @@
       "De toda a população"
     ],
     "respostaCorreta": 3
-  }
+  },
+  {
+  "pergunta": "Sobre a vacina contra a dengue, é correto afirmar:",
+  "opcoes": [
+    "Serve para curar quem já está com dengue",
+    "Ajuda na prevenção da doença",
+    "Substitui a necessidade de eliminar água parada",
+    "Não tem nenhuma utilidade"
+  ],
+  "respostaCorreta": 1
+}
 ]
